@@ -5,7 +5,7 @@ import com.upex.constants.MerkelTreeConstants;
 import com.upex.model.TreeNode;
 
 /**
- * 默克尔树工具类
+ * MerkelTreeUtils
  * @author BitgetLimited
  * @date 2022/11/25 23:11
  */
@@ -26,10 +26,10 @@ public class MerkelTreeUtils {
     }
 
     /**
-     * 生成默克尔树父节点hash
-     * @param left 左节点
-     * @param right 右节点
-     * @param parent 父类
+     * createMerkelParentLeaf
+     * @param left
+     * @param right
+     * @param parent
      * @return {@link String }
      * @author BitgetLimited
      * @date 2022/11/25 23:37

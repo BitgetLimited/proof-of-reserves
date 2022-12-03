@@ -1,6 +1,6 @@
 package com.upex.constants;
 
-/**
+/** TreeNodeRoleConstants
  * @author BitgetLimited
  * @date 2020-11-18 16:14
  * @desc

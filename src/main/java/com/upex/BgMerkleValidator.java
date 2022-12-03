@@ -11,13 +11,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 /**
- * 验证账户资产是否包含在BitGet发布的Merkle树中
+ * Verify whether the account assets are included in the Merkle tree published by Bitget
  *
  * @author BitgetLimited
  */
 public class BgMerkleValidator {
     /**
-     * 定义文件路径：merkel_tree_bg.json
+     * merkel_tree_bg.json
      **/
     private static final String MERKLE_TREE_BG_FILE_PATH = "merkel_tree_bg.json";
 
@@ -42,7 +42,7 @@ public class BgMerkleValidator {
     }
 
     /**
-     * 参数校验
+     * validate
      * @param merkleProof
      * @return
      * @author BitgetLimited
@@ -74,7 +74,7 @@ public class BgMerkleValidator {
 
 
     /**
-     * 获取merkel_tree_bg.json文件内容
+     * get merkel_tree_bg.json content
      *
      * @author BitgetLimited
      * @date 2022/11/25 16:53

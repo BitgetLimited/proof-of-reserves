@@ -8,44 +8,27 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 /**
- * 默克尔树节点
+ * TreeNode
  * @author BitgetLimited
  * @date 2022/11/25 23:39
  */
 public class TreeNode {
-    /**
-     * 审计id
-     */
+
     private String auditId;
 
-    /**
-     * 资产集合
-     */
     private Map<String, BigDecimal> balances = new HashMap<>();
 
-    /**
-     * 随机值
-     */
     private String nonce;
 
-    /**
-     * 默克尔树节点值
-     */
     private String merkelLeaf;
 
-    /**
-     * 层级
-     */
     private Integer level;
 
     /**
-     * 角色 0-空节点， 1-左节点， 2-右节点， 3-根节点
+     * role 0-empty， 1-left， 2-right， 3-root
      */
     private Integer role;
 
-    /**
-     * 加密用户id
-     */
     private String encryptUid;
 
     public String getAuditId() {
@@ -148,7 +131,7 @@ public class TreeNode {
     }
 
     /**
-     * 合并资产
+     * mergeAsset
      * @param childNode
      */
     public void mergeAsset(TreeNode childNode){
@@ -167,7 +150,7 @@ public class TreeNode {
     }
 
     /**
-     * 验证资产集合
+     * validateEqualsBalances
      * @return {@link boolean }
      * @author BitgetLimited
      * @date 2022/11/25 22:30

@@ -2,7 +2,7 @@ package com.upex.model;
 
 import java.util.List;
 /**
- * 默克尔树证明实体类
+ * MerkleProof
  * @author BitgetLimited
  * @date 2022/11/25 23:40
  */
@@ -27,8 +27,8 @@ public class MerkleProof {
     }
 
     /**
-     * 默克尔树的验证
-     * 通过用户提供的path和self正推出一个新的root，与path中的root进行比较
+     * validate
+     * A new root is being introduced through the path and self provided by the user. Compare with the root in the path
      * @return {@link boolean }
      * @author BitgetLimited
      * @date 2022/11/27 11:54

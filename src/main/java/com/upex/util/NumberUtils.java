@@ -1,7 +1,7 @@
 package com.upex.util;
 
 /**
- * 数字工具类
+ * NumberUtils
  * @author BitgetLimited
  * @date 2022/11/23 21:31
  */

@@ -16,9 +16,9 @@ import java.util.Map;
 public class MerKelTree {
 
     /**
-     * 构建merkelTree树根节点
-     * @param path 待验证路径
-     * @param self 自己节点
+     * build merkelTree root node
+     * @param path
+     * @param self
      * @return {@link TreeNode }
      * @author BitgetLimited
      * @date 2022/11/27 11:56
@@ -39,9 +39,9 @@ public class MerKelTree {
     }
 
     /**
-     * 创建父节点
-     * @param friend 朋友节点
-     * @param self 自己节点
+     * createParentTreeNode
+     * @param friend
+     * @param self
      * @return {@link TreeNode }
      * @author BitgetLimited
      * @date 2022/11/27 11:57
@@ -60,9 +60,9 @@ public class MerKelTree {
     }
 
     /**
-     * 构建内部节点
-     * @param left 左节点
-     * @param right 右节点
+     * constructInternalNode
+     * @param left
+     * @param right
      * @return
      */
     private TreeNode constructInternalNode(TreeNode left, TreeNode right) {
@@ -81,8 +81,8 @@ public class MerKelTree {
     }
 
     /**
-     * 清除节点资产
-     * @param right 右节点
+     * clearAssetsMap
+     * @param right
      * @return {@link java.util.Map<java.lang.String,java.math.BigDecimal> }
      * @author BitgetLimited
      * @date 2022/11/27 11:59
@@ -95,9 +95,8 @@ public class MerKelTree {
     }
 
     /**
-     * 创建一个空节点
-     * 将左节点复制，资产清空
-     * @param source 源节点
+     * createEmptyTreeNode
+     * @param source
      * @return {@link TreeNode }
      * @author BitgetLimited
      * @date 2022/11/25 23:40
