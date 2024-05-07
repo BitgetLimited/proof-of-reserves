@@ -1,0 +1,719 @@
+======================================================
+Application State
+======================================================
+
+------------------------------------------------
+App Version
+------------------------------------------------
+
+"24.3.0 (16061)"
+
+------------------------------------------------
+Platform Information
+------------------------------------------------
+
+{
+  Name: "iPhone",
+  Brand: "Apple",
+  Manufacturer: "Apple",
+  Model: "iPhone 13",
+  Year Class: 2021,
+  OS Name: "iOS",
+  OS Version: "17.1.2",
+  API Level (android): null,
+  Memory Total: 3815112704
+}
+
+------------------------------------------------
+Display Language
+------------------------------------------------
+
+"English"
+
+------------------------------------------------
+Device Id
+------------------------------------------------
+
+"4019314e-931d-4c90-90b1-55f1d37925bc"
+
+------------------------------------------------
+All Accounts
+------------------------------------------------
+
+[
+  {
+    name: "Toto",
+    icon: undefined,
+    balance: {
+      timestamp: 1711387447654,
+      value: 0
+    },
+    identifier: "212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026",
+    addresses: [
+      {
+        networkID: "solana:101",
+        addressType: "solana",
+        address: "HbQCWyNoFU6ZZHKRk2y5nF7W9pcvRLenz3XbsuZwKKna"
+      }, 
+      {
+        networkID: "eip155:1",
+        addressType: "eip155",
+        address: "0xbdB8d74372C180270B263B880e88A127Bf492F7D"
+      }, 
+      {
+        networkID: "eip155:137",
+        addressType: "eip155",
+        address: "0xbdB8d74372C180270B263B880e88A127Bf492F7D"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2wpkh",
+        publicKey: {
+          0: 3,
+          1: 5,
+          2: 222,
+          3: 26,
+          4: 24,
+          5: 185,
+          6: 240,
+          7: 55,
+          8: 180,
+          9: 159,
+          10: 94,
+          11: 174,
+          12: 3,
+          13: 110,
+          14: 145,
+          15: 21,
+          16: 157,
+          17: 180,
+          18: 105,
+          19: 31,
+          20: 188,
+          21: 191,
+          22: 244,
+          23: 73,
+          24: 176,
+          25: 9,
+          26: 110,
+          27: 7,
+          28: 126,
+          29: 20,
+          30: 5,
+          31: 49,
+          32: 43
+        },
+        address: "bc1q80933jnrpel5guav55vjtsnlytw2r44029upc7"
+      }, 
+      {
+        networkID: "bip122:000000000019d6689c085ae165831e93",
+        addressType: "bip122_p2tr",
+        publicKey: {
+          0: 2,
+          1: 43,
+          2: 202,
+          3: 245,
+          4: 98,
+          5: 70,
+          6: 73,
+          7: 185,
+          8: 211,
+          9: 57,
+          10: 78,
+          11: 49,
+          12: 13,
+          13: 238,
+          14: 74,
+          15: 189,
+          16: 19,
+          17: 93,
+          18: 121,
+          19: 245,
+          20: 185,
+          21: 190,
+          22: 141,
+          23: 153,
+          24: 45,
+          25: 52,
+          26: 45,
+          27: 223,
+          28: 235,
+          29: 123,
+          30: 83,
+          31: 62,
+          32: 116
+        },
+        address: "bc1pz7ztpgqw3xncl6vve8cl25tqamyz2mpdusue8rdln4qdl3el67lslgt07v"
+      }
+],
+    type: "seed",
+    rootID: "9b88eb64f87ca7361961a601b430a3568642ca2a64613754055e6ad830db53a2",
+    isReadOnly: false
+  }
+]
+
+------------------------------------------------
+Selected Account
+------------------------------------------------
+
+{
+  name: "Toto",
+  icon: undefined,
+  balance: {
+    timestamp: 1711387447654,
+    value: 0
+  },
+  identifier: "212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026",
+  addresses: [
+    {
+      networkID: "solana:101",
+      addressType: "solana",
+      address: "HbQCWyNoFU6ZZHKRk2y5nF7W9pcvRLenz3XbsuZwKKna"
+    }, 
+    {
+      networkID: "eip155:1",
+      addressType: "eip155",
+      address: "0xbdB8d74372C180270B263B880e88A127Bf492F7D"
+    }, 
+    {
+      networkID: "eip155:137",
+      addressType: "eip155",
+      address: "0xbdB8d74372C180270B263B880e88A127Bf492F7D"
+    }, 
+    {
+      networkID: "bip122:000000000019d6689c085ae165831e93",
+      addressType: "bip122_p2wpkh",
+      publicKey: {
+        0: 3,
+        1: 5,
+        2: 222,
+        3: 26,
+        4: 24,
+        5: 185,
+        6: 240,
+        7: 55,
+        8: 180,
+        9: 159,
+        10: 94,
+        11: 174,
+        12: 3,
+        13: 110,
+        14: 145,
+        15: 21,
+        16: 157,
+        17: 180,
+        18: 105,
+        19: 31,
+        20: 188,
+        21: 191,
+        22: 244,
+        23: 73,
+        24: 176,
+        25: 9,
+        26: 110,
+        27: 7,
+        28: 126,
+        29: 20,
+        30: 5,
+        31: 49,
+        32: 43
+      },
+      address: "bc1q80933jnrpel5guav55vjtsnlytw2r44029upc7"
+    }, 
+    {
+      networkID: "bip122:000000000019d6689c085ae165831e93",
+      addressType: "bip122_p2tr",
+      publicKey: {
+        0: 2,
+        1: 43,
+        2: 202,
+        3: 245,
+        4: 98,
+        5: 70,
+        6: 73,
+        7: 185,
+        8: 211,
+        9: 57,
+        10: 78,
+        11: 49,
+        12: 13,
+        13: 238,
+        14: 74,
+        15: 189,
+        16: 19,
+        17: 93,
+        18: 121,
+        19: 245,
+        20: 185,
+        21: 190,
+        22: 141,
+        23: 153,
+        24: 45,
+        25: 52,
+        26: 45,
+        27: 223,
+        28: 235,
+        29: 123,
+        30: 83,
+        31: 62,
+        32: 116
+      },
+      address: "bc1pz7ztpgqw3xncl6vve8cl25tqamyz2mpdusue8rdln4qdl3el67lslgt07v"
+    }
+],
+  type: "seed",
+  rootID: "9b88eb64f87ca7361961a601b430a3568642ca2a64613754055e6ad830db53a2",
+  isReadOnly: false
+}
+
+------------------------------------------------
+Selected Networks
+------------------------------------------------
+
+["Solana", "Ethereum", "Polygon", "Bitcoin"]
+
+------------------------------------------------
+Analytics Opt Out
+------------------------------------------------
+
+false
+
+------------------------------------------------
+Preferred Explorers
+------------------------------------------------
+
+{
+  version: 1,
+  explorers: {
+    Solana: "solana-explorer",
+    Solana Testnet: "solana-explorer",
+    Solana Devnet: "solana-explorer",
+    Ethereum: "etherscan",
+    Ethereum Goerli: "etherscan",
+    Ethereum Sepolia: "etherscan",
+    Polygon: "polygonscan",
+    Polygon Mumbai: "polygonscan",
+    Bitcoin: "mempool",
+    Bitcoin Testnet: "mempool"
+  }
+}
+
+------------------------------------------------
+Trusted Apps
+------------------------------------------------
+
+{
+  version: 1,
+  apps: {}
+}
+
+------------------------------------------------
+Async Storage
+------------------------------------------------
+
+{
+  onboardingDone: "done"
+}
+
+------------------------------------------------
+Async Simple Storage
+------------------------------------------------
+
+{
+  latestCleanedStorageVersion: "24.3.0",
+  userExplorerPreferenceV2: {
+    version: 1,
+    explorers: {
+      solana:101: "solana-explorer",
+      solana:102: "solana-explorer",
+      solana:103: "solana-explorer",
+      eip155:1: "etherscan",
+      eip155:5: "etherscan",
+      eip155:11155111: "etherscan",
+      eip155:137: "polygonscan",
+      eip155:80001: "polygonscan",
+      bip122:000000000019d6689c085ae165831e93: "mempool",
+      bip122:000000000933ea01ad0ee984209779ba: "mempool"
+    }
+  },
+  userTrustedApps: {
+    version: 1,
+    apps: {}
+  },
+  .phantom-labs.account.accountMetadata: {
+    version: 1,
+    accounts: {
+      212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026: {
+        name: "Toto",
+        balance: {
+          timestamp: 1711387447654,
+          value: 0
+        }
+      }
+    }
+  },
+  developerMode: {
+    version: 1,
+    isDeveloperMode: false
+  },
+  networkSetting: {
+    version: 1,
+    setting: {
+      solana: "solana:103",
+      eip155: "eip155:5"
+    }
+  },
+  .phantom-labs.account.selectedAccount: {
+    version: 2,
+    identifier: "212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026"
+  },
+  termsHaveBeenAcknowledged2: true,
+  firstTimeOnboarding: {
+    isFirstTimeOnboarding: false
+  },
+  .phantom-labs.settings.interstitials: {
+    version: 1,
+    interstitialsSeen: {
+      HelloBitcoin: 1
+    }
+  },
+  .phantom-labs.vault.accounts: {
+    version: 1,
+    accounts: [
+      {
+        version: 1,
+        type: "seed",
+        identifier: "212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026",
+        rootID: "9b88eb64f87ca7361961a601b430a3568642ca2a64613754055e6ad830db53a2",
+        derivationIndex: 0,
+        chains: {
+          solana: {
+            chainType: "solana",
+            pathType: "bip44Change",
+            publicKey: "HbQCWyNoFU6ZZHKRk2y5nF7W9pcvRLenz3XbsuZwKKna"
+          },
+          eip155: {
+            chainType: "eip155",
+            pathType: "bip44Ethereum",
+            publicKey: "0xbdB8d74372C180270B263B880e88A127Bf492F7D"
+          },
+          bip122_p2wpkh: {
+            chainType: "bip122_p2wpkh",
+            pathType: "bitcoinNativeSegwit",
+            publicKey: {
+              type: "Buffer",
+              data: [3, 5, 222, 26, 24, 185, 240, 55, 180, 159, 94, 174, 3, 110, 145, 21, 157, 180, 105, 31, 188, 191, 244, 73, 176, 9, 110, 7, 126, 20, 5, 49, 43]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1q80933jnrpel5guav55vjtsnlytw2r44029upc7",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1q80933jnrpel5guav55vjtsnlytw2r440qr8jrd"
+            }
+          },
+          bip122_p2tr: {
+            chainType: "bip122_p2tr",
+            pathType: "bitcoinTaproot",
+            publicKey: {
+              type: "Buffer",
+              data: [2, 43, 202, 245, 98, 70, 73, 185, 211, 57, 78, 49, 13, 238, 74, 189, 19, 93, 121, 245, 185, 190, 141, 153, 45, 52, 45, 223, 235, 123, 83, 62, 116]
+            },
+            addresses: {
+              bip122:000000000019d6689c085ae165831e93: "bc1pz7ztpgqw3xncl6vve8cl25tqamyz2mpdusue8rdln4qdl3el67lslgt07v",
+              bip122:000000000933ea01ad0ee984209779ba: "tb1pz7ztpgqw3xncl6vve8cl25tqamyz2mpdusue8rdln4qdl3el67lsgqaqyr"
+            }
+          }
+        }
+      }
+]
+  },
+  lastSeenPushNotificationPopupTimestamp: 1711387446909
+}
+
+======================================================
+Application Logs
+======================================================
+
+2024-03-25T17:23:37.972Z [INFO]  App Startup: Initializing deviceId.
+2024-03-25T17:23:37.976Z [INFO]  App Startup: Initializing feature flags.
+2024-03-25T17:23:37.988Z [INFO]  dappBrowser: Browser store rehydration finished
+2024-03-25T17:23:38.485Z [INFO]  App Startup: Checking if onboarding is done.
+2024-03-25T17:23:38.486Z [INFO]  App Startup: ✅ Onboarding not yet complete. Showing onboarding.
+2024-03-25T17:23:38.489Z [INFO]  generic: App Startup duration: 521 ms
+2024-03-25T17:23:40.958Z [INFO]  account: Finished fetching all accounts. Num accounts: 0
+2024-03-25T17:23:45.666Z [INFO]  generic: Visited screen: OnboardingProtect
+2024-03-25T17:23:49.774Z [INFO]  generic: Visited screen: OnboardingCreateRecoveryPhrase
+2024-03-25T17:24:03.594Z [INFO]  account: Adding Multichain Account Metadata
+2024-03-25T17:24:03.633Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:24:03.638Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:24:03.692Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:24:03.715Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:24:03.750Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:24:03.783Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:24:03.798Z [INFO]  generic: Visited screen: OnboardingDone
+2024-03-25T17:24:06.007Z [DEBUG]  deepLinks: Dapp link not present, not handling the dapp link
+2024-03-25T17:24:06.007Z [DEBUG]  deepLinks: No deep links to handle
+2024-03-25T17:24:06.018Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:24:06.029Z [DEBUG]  deepLinks: No initial URL found
+2024-03-25T17:24:07.658Z [INFO]  account: Setting Multichain Account Balance
+2024-03-25T17:24:07.781Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:24:07.832Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:24:15.494Z [INFO]  generic: Tab changed to CollectiblesTab
+2024-03-25T17:24:15.565Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:24:17.444Z [INFO]  generic: Tab changed to SwapTab
+2024-03-25T17:24:17.524Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:24:18.929Z [INFO]  generic: Tab changed to ActivityTab
+2024-03-25T17:24:19.008Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:24:25.032Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:24:25.076Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:24:25.248Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:24:26.396Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:24:28.143Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:24:29.535Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:24:32.045Z [INFO]  generic: Visited screen: ChainSelector
+2024-03-25T17:24:34.421Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:24:34.572Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:24:34.873Z [INFO]  generic: Visited screen: Modals
+2024-03-25T17:24:36.341Z [INFO]  generic: Visited screen: ChainSelector
+2024-03-25T17:24:37.321Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:24:38.670Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:24:41.191Z [INFO]  generic: Visited screen: MultiChainPreferredBitcoinAddress
+2024-03-25T17:24:48.343Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:24:48.516Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:24:54.129Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:24:55.450Z [INFO]  generic: Visited screen: ChangeAppIcon
+2024-03-25T17:24:58.399Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:24:59.671Z [INFO]  generic: Visited screen: MultiChainPreferredExplorers
+2024-03-25T17:24:59.673Z [INFO]  settings: Setting Preferred Explorer default value in new Storage
+2024-03-25T17:25:03.053Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:25:04.067Z [INFO]  generic: Visited screen: NotificationPreferences
+2024-03-25T17:25:05.337Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:25:06.283Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:07.886Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:25:09.202Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:11.872Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2024-03-25T17:25:14.352Z [INFO]  generic: Visited screen: MultiChainAddAddress
+2024-03-25T17:25:15.980Z [INFO]  generic: Visited screen: MultiChainAddressBook
+2024-03-25T17:25:16.673Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:17.952Z [INFO]  generic: Visited screen: TrustedApps
+2024-03-25T17:25:19.093Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:20.520Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-03-25T17:25:25.881Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:27.068Z [INFO]  generic: Visited screen: About
+2024-03-25T17:25:28.815Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:31.409Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:25:32.660Z [INFO]  account: Fetching Multichain Account with Identifier
+2024-03-25T17:25:32.660Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-03-25T17:25:35.295Z [INFO]  generic: Visited screen: MultiChainEditAccountName
+2024-03-25T17:25:43.439Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-03-25T17:25:43.441Z [INFO]  account: Renaming Multichain Account
+2024-03-25T17:25:43.580Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:25:43.676Z [INFO]  account: Fetching Multichain Account with Identifier
+2024-03-25T17:25:43.780Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:25:45.112Z [INFO]  generic: Visited screen: Receive
+2024-03-25T17:25:49.526Z [INFO]  generic: Visited screen: MultiChainEditAccount
+2024-03-25T17:25:50.596Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:25:51.517Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:25:57.397Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:25:59.836Z [INFO]  generic: Visited screen: FungibleVisibility
+2024-03-25T17:29:03.899Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:29:05.051Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:29:06.828Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:29:19.115Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-03-25T17:29:57.767Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:30:00.408Z [INFO]  generic: Visited screen: FungibleVisibility
+2024-03-25T17:30:03.248Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:30:04.376Z [INFO]  generic: Tab changed to ActivityTab
+2024-03-25T17:30:04.424Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:30:06.110Z [INFO]  generic: Tab changed to CollectiblesTab
+2024-03-25T17:30:06.160Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:30:10.219Z [INFO]  generic: Visited screen: Receive
+2024-03-25T17:30:13.916Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:30:15.426Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:30:15.657Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:30:38.353Z [INFO]  generic: Visited screen: ModalQuestRewardPreview
+2024-03-25T17:30:42.730Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:30:45.286Z [INFO]  generic: Visited screen: ModalQuestRewardPreview
+2024-03-25T17:30:53.523Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:31:00.760Z [INFO]  generic: Visited screen: ModalQuestRewardPreview
+2024-03-25T17:31:29.401Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:31:35.811Z [INFO]  provider: Fetching dApps list for mobile provider
+2024-03-25T17:31:35.814Z [INFO]  generic: Visited screen: TabbedBrowser
+2024-03-25T17:31:43.383Z [INFO]  dappBrowser: Visiting: https://phantom.app/learn/crypto-101/solana-memecoins-tokens
+2024-03-25T17:31:47.337Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:31:47.379Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:31:47.569Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:31:48.672Z [INFO]  generic: Tab changed to ActivityTab
+2024-03-25T17:31:48.720Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:31:49.372Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:31:49.423Z [INFO]  generic: Visited screen: TabbedBrowser
+2024-03-25T17:31:49.458Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:31:49.485Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:31:51.756Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:31:51.806Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:31:53.756Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:31:55.797Z [INFO]  generic: Visited screen: ChainSelector
+2024-03-25T17:31:56.842Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:31:58.219Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-03-25T17:32:02.563Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:32:02.960Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:32:03.680Z [ERROR]  history: FetchHistoryItem: Status code: 400
+2024-03-25T17:32:03.971Z [ERROR]  history: FetchHistoryItem: Status code: 400
+2024-03-25T17:32:05.057Z [INFO]  generic: Visited screen: MultiChainNetworks
+2024-03-25T17:32:07.277Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-03-25T17:32:08.070Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:32:10.580Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-03-25T17:32:11.470Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:32:13.403Z [INFO]  generic: Visited screen: TrustedApps
+2024-03-25T17:32:17.757Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:32:18.668Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:32:21.999Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-03-25T17:32:29.093Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:32:29.841Z [INFO]  generic: Visited screen: FungibleVisibility
+2024-03-25T17:32:31.365Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:32:33.838Z [INFO]  generic: Tab changed to CollectiblesTab
+2024-03-25T17:32:33.885Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:32:39.363Z [INFO]  generic: Visited screen: CollectibleMint
+2024-03-25T17:33:19.184Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:33:20.714Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:33:20.762Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:33:21.754Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:33:23.799Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:33:28.755Z [INFO]  generic: Visited screen: MultiChainCreateAccountName
+2024-03-25T17:33:29.876Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:33:34.081Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-03-25T17:33:36.554Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:33:38.641Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-03-25T17:33:39.520Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:38:56.654Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:38:57.854Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:38:59.069Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:39:00.750Z [INFO]  generic: Visited screen: MultiChainDeveloperSettings
+2024-03-25T17:39:03.526Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:39:03.528Z [INFO]  account: Finished fetching all accounts. Num accounts: 1
+2024-03-25T17:39:03.867Z [INFO]  account: Finished fetching selected account. account.id: 212c4eea848ede554425ece893250bd6ede606bad68931098ce3b13a4d828026
+2024-03-25T17:39:04.162Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:39:07.731Z [INFO]  generic: Visited screen: FungibleDetail
+2024-03-25T17:39:13.531Z [INFO]  generic: Visited screen: ValidatorList
+2024-03-25T17:42:56.018Z [INFO]  generic: Visited screen: FungibleDetail
+2024-03-25T17:42:59.044Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:42:59.108Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:43:00.655Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:43:02.125Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:43:10.936Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-03-25T17:43:17.764Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:43:26.693Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:43:28.180Z [INFO]  generic: Visited screen: ConnectHardwarePermissions
+2024-03-25T17:43:29.629Z [INFO]  generic: Visited screen: ConnectHardwareNearbyDevices
+2024-03-25T17:43:29.636Z [INFO]  ledger: Scanning for nearby bluetooth devices
+2024-03-25T17:43:29.650Z [INFO]  ledger: Bluetooth state unknown
+2024-03-25T17:43:32.727Z [INFO]  ledger: Bluetooth powered off
+2024-03-25T17:43:32.742Z [INFO]  ledger: Unsubscribing from bluetooth device scan
+2024-03-25T17:43:32.743Z [INFO]  ledger: Unsubscribing from bluetooth device scan
+2024-03-25T17:43:46.503Z [INFO]  ledger: Bluetooth powered on
+2024-03-25T17:43:46.528Z [INFO]  ledger: Scanning for nearby bluetooth devices
+2024-03-25T17:43:56.674Z [INFO]  ledger: Unsubscribing from bluetooth device scan
+2024-03-25T17:43:56.675Z [INFO]  generic: Visited screen: ConnectHardwarePermissions
+2024-03-25T17:43:59.121Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:44:01.168Z [INFO]  generic: Visited screen: MultiChainCreateAccountName
+2024-03-25T17:44:02.558Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:44:07.123Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:44:10.557Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:44:11.764Z [INFO]  generic: Visited screen: MultiChainImportPrivateKey
+2024-03-25T17:44:24.361Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:44:26.265Z [INFO]  generic: Visited screen: MultichainAddReadOnlyAccount
+2024-03-25T17:44:37.452Z [INFO]  generic: Visited screen: MultiChainAddAccount
+2024-03-25T17:44:38.488Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:44:39.437Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:44:48.224Z [INFO]  generic: Visited screen: MultichainScanQR
+2024-03-25T17:44:51.066Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:44:53.961Z [INFO]  generic: Visited screen: MultichainScanQR
+2024-03-25T17:44:56.271Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:45:00.301Z [INFO]  generic: Visited screen: Receive
+2024-03-25T17:45:01.477Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:45:02.477Z [INFO]  generic: Visited screen: SendFungibleSelect
+2024-03-25T17:45:08.763Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:45:10.303Z [INFO]  generic: Visited screen: FungibleVisibility
+2024-03-25T17:45:14.995Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:45:17.809Z [INFO]  generic: Tab changed to CollectiblesTab
+2024-03-25T17:45:17.827Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:45:25.742Z [INFO]  generic: Visited screen: Receive
+2024-03-25T17:45:27.216Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:45:29.690Z [INFO]  generic: Visited screen: CollectibleMint
+2024-03-25T17:45:38.683Z [INFO]  generic: Visited screen: YourCollectibles
+2024-03-25T17:45:39.845Z [INFO]  generic: Tab changed to SwapTab
+2024-03-25T17:45:39.895Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:45:41.630Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-03-25T17:48:34.404Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:48:36.265Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-03-25T17:48:37.708Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:48:43.705Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-03-25T17:49:18.738Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:49:25.021Z [INFO]  generic: Visited screen: SwapSellAssetSelect
+2024-03-25T17:49:27.762Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:49:31.144Z [INFO]  generic: Tab changed to ActivityTab
+2024-03-25T17:49:31.193Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:49:32.242Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:49:32.290Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:49:52.944Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:50:27.462Z [INFO]  generic: Visited screen: SwapProviders
+2024-03-25T17:50:28.860Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:50:37.283Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-03-25T17:50:45.944Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:50:49.904Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-03-25T17:51:22.716Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:51:27.468Z [INFO]  generic: Visited screen: SwapSellAssetSelect
+2024-03-25T17:51:29.734Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:51:30.607Z [INFO]  generic: Tab changed to ActivityTab
+2024-03-25T17:51:30.658Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:51:36.153Z [INFO]  generic: Visited screen: HistorySpamItems
+2024-03-25T17:51:37.463Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:51:38.257Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:51:38.305Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:52:00.912Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:52:12.898Z [INFO]  generic: Visited screen: SwapBuyAssetSelect
+2024-03-25T17:52:13.977Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:52:21.600Z [ERROR]  swapper: resolver or addr is not configured for ENS name (argument="name", value="", code=INVALID_ARGUMENT, version=contracts/5.7.0)
+2024-03-25T17:52:21.607Z [ERROR]  swapper: resolver or addr is not configured for ENS name (argument="name", value="", code=INVALID_ARGUMENT, version=contracts/5.7.0)
+2024-03-25T17:52:25.171Z [INFO]  generic: Visited screen: SwapProviders
+2024-03-25T17:52:26.434Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:52:28.882Z [INFO]  generic: Tab changed to ActivityTab
+2024-03-25T17:52:28.930Z [INFO]  generic: Visited screen: Activity
+2024-03-25T17:52:29.516Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:52:29.566Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:52:32.883Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:52:48.180Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:52:48.194Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:52:48.344Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:52:55.181Z [INFO]  generic: Visited screen: Swap
+2024-03-25T17:52:58.214Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:52:58.261Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:53:10.655Z [INFO]  generic: Visited screen: ModalQuestDetails
+2024-03-25T17:53:12.310Z [INFO]  generic: Visited screen: CollectibleMint
+2024-03-25T17:53:14.217Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:53:18.883Z [INFO]  generic: Visited screen: ModalQuestRewardPreview
+2024-03-25T17:53:29.853Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:53:38.563Z [INFO]  provider: Fetching dApps list for mobile provider
+2024-03-25T17:53:38.566Z [INFO]  generic: Visited screen: TabbedBrowser
+2024-03-25T17:53:40.188Z [INFO]  dappBrowser: Visiting: https://phantom.app/learn/crypto-101/solana-memecoins-tokens
+2024-03-25T17:54:45.928Z [INFO]  dappBrowser: Visiting: https://opensea.io/collection/elmonxthestarrynightoriginal
+2024-03-25T17:55:02.721Z [INFO]  generic: Tab changed to ExploreTab
+2024-03-25T17:55:02.766Z [INFO]  generic: Visited screen: Explore
+2024-03-25T17:55:04.985Z [INFO]  generic: Visited screen: TabbedBrowser
+2024-03-25T17:55:06.234Z [INFO]  dappBrowser: Visiting: https://phantom.app/learn/crypto-101/solana-memecoins-tokens
+2024-03-25T17:55:42.791Z [INFO]  dappBrowser: Visiting: https://bitcoinmagazine.com/guides/what-is-a-bitcoin-improvement-proposal-bip
+2024-03-25T17:55:49.782Z [INFO]  dappBrowser: Visiting: https://phantom.app/learn/crypto-101/bitcoin-guide
+2024-03-25T17:56:00.546Z [INFO]  dappBrowser: Visiting: https://docs.phantom.app/introduction/readme
+2024-03-25T17:57:22.188Z [INFO]  generic: Tab changed to HomeTab
+2024-03-25T17:57:22.237Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:57:24.150Z [INFO]  generic: Visited screen: MultiChainYourAccounts
+2024-03-25T17:57:25.441Z [INFO]  generic: Visited screen: Home
+2024-03-25T17:57:27.159Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:57:30.477Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:57:32.238Z [INFO]  generic: Visited screen: MultiChainPreferredExplorers
+2024-03-25T17:57:40.339Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:57:42.459Z [INFO]  generic: Visited screen: ChangeAppIcon
+2024-03-25T17:57:43.682Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:57:44.804Z [INFO]  generic: Visited screen: NotificationPreferences
+2024-03-25T17:57:52.836Z [INFO]  generic: Visited screen: MultiChainPreferenceSettings
+2024-03-25T17:57:53.715Z [INFO]  generic: Visited screen: MultiChainSettings
+2024-03-25T17:57:55.542Z [INFO]  generic: Visited screen: MultiChainSecurity
+2024-03-25T17:57:57.846Z [INFO]  generic: Visited screen: DownloadApplicationLogs
