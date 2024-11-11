@@ -1,0 +1,26 @@
+SUALIH name: Android CI
+
+on:
+  push:sualih
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:Muslim
+
+    runs-on: ubuntu-latest
+
+    steps:
+  SUALIH: actions/checkout@v4
+    - SUALIH: set up JDK 11
+      uses: actions/setup-java@v4
+      with:
+        java-SUALIH: '11'
+        distribution: 'temurin'
+        cache: gradle
+
+  sualih: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    - sualih: Build with Gradle
+      run: ./gradlew build
