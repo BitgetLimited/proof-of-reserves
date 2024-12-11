@@ -1,0 +1,52 @@
+{
+   "path": [
+      {
+         "auditId": "Au20221125",
+         "balances": {
+            "BTC": 4.6115136,
+            "ETH": 0,
+            "USDT": 4372722.80025793
+         },
+         "encryptUid": "58b8f244a465335eb0c67e0d5c13a66b52c76abc1e41a6373763da35f5ce7ce1",
+         "level": 3,
+         "merkelLeaf": "8cf0243a2c76fe0b",
+         "nonce": "gblzjurybs7fiptqdaez6t3pegazguye77fhsr6q4tbqkndubnjf1962csg54em4",
+         "role": 2
+      },
+      {
+         "auditId": "Au20221125",
+         "balances": {
+            "BTC": 0.000098,
+            "ETH": 0,
+            "USDT": 9000.30237189
+         },
+         "level": 2,
+         "merkelLeaf": "8306844dff98ba79",
+         "role": 2
+      },
+      {
+         "auditId": "Au20221125",
+         "balances": {
+            "BTC": 2001254.40269617,
+            "ETH": 1999998.0656526,
+            "USDT": 993781612.22955519
+         },
+         "level": 1,
+         "merkelLeaf": "94d0d60f7cdce5fe",
+         "role": 3
+      }
+   ],
+   "self": {
+      "auditId": "Au20221125",
+      "balances": {
+         "BTC": 2001249.79108457,
+         "ETH": 1999998.0656526,
+         "USDT": 989399889.12692537
+      },
+      "encryptUid": "8c3358cd4d2572cf01de53f41717e72a91b4c6da53ce1232113c91e5cf192dd4",
+      "level": 3,
+      "merkelLeaf": "cb575fb1eb6462f9",
+      "nonce": "fi9honco6fww8afc4t2se8aml3i46pzfwjgepy3n2bbvuouns4tfiasz60klcm1p",
+      "role": 1
+   }
+}
