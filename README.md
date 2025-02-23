@@ -144,10 +144,10 @@ Merkle tree path data json text:
 
 #### Verification Steps
 1. Take the executable verifier that you need to download on the Bitget platform for your operating system and architecture.
-- proof-of-reserves-linux-amd64-v1.0.2.zip
-- proof-of-reserves-linux-arm64-v1.0.2.zip
-- proof-of-reserves-macos-v1.0.2.zip
-- proof-of-reserves-windows-v1.0.2.zip
+- proof-of-reserves-linux-amd64-v1.0.3.zip
+- proof-of-reserves-linux-arm64-v1.0.3.zip
+- proof-of-reserves-macos-v1.0.3.zip
+- proof-of-reserves-windows-v1.0.3.zip
 2. Unzip the file to a specified directory, for example:
    `~/Downloads/proof-of-reserves-*`
 3. Download the file merkel_tree_bg.json and substitute the file with the same name under your directory`~/Downloads/proof-of-reserves-*`
