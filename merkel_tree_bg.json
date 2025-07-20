@@ -7,12 +7,10 @@
         "ETH": 300000,
         "USDT": 1299991.9972
       },
-      "encryptUid": "b9f0892720bf0867da92… 
-on blockchair.comb9f0892720bf0867da9223b083c17ebeac486a8eb03a522df9e6f7f4a1824b18",
+      "encryptUid": "b9f0892720bf0867da92b9f0892720bf0867da9223b083c17ebeac486a8eb03a522df9e6f7f4a1824b18",
       "level": 11,
       "merkelLeaf": "54d658b6b8255d4a",
-      "nonce": "94yr3srdfkkx0y0pog0cso0Search 72otj18xyjo2koyodekg… 
-on blockchair.com72otj18xyjo2koyodekgkqbk9u84zd3vuspa6vpbu",
+      "nonce": "94yr3srdfkkx0y0pog0cso0 72otj18xyjo2koyodekgkqbk9u84zd3vuspa6vpbu 72otj18xyjo2koyodekgkqbk9u84zd3vuspa6vpbu",
       "role": 2
     },
     {
@@ -133,12 +131,10 @@ on blockchair.com72otj18xyjo2koyodekgkqbk9u84zd3vuspa6vpbu",
       "ETH": 5000,
       "USDT": 5560.49
     },
-    "encryptUid": "Search b3e887893212aa3faea8… 
-on blockchair.comb3e887893212aa3faea8923b3b4c8589131895e7f468d394c4c508e31e3c85bf",
+    "encryptUid": " b3e887893212aa3faea8923b3b4c8589131895e7f468d394c4c508e31e3c85bf    b3e887893212aa3faea8923b3b4c8589131895e7f468d394c4c508e31e3c85bf",
     "level": 11,
     "merkelLeaf": "1fa8ef498dc505f6",
-    "nonce": "wx9bzSearch gdojl0hoz7ckgft0k1cd… 
-on blockchair.comgdojl0hoz7ckgft0k1cdyly7qohglaphsmqkx0hv80hjlwf0igvnamdqbh7",
+    "nonce": "wx9bz  gdojl0hoz7ckgft0k1cdyly7qohglaphsmqkx0hv80hjlwf0igvnamdqbh7  gdojl0hoz7ckgft0k1cdyly7qohglaphsmqkx0hv80hjlwf0igvnamdqbh7",
     "role": 1
   }
 }
