@@ -1,140 +1,344 @@
 {
-  "path": [
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 0,
-        "ETH": 0,
-        "USDT": 7681.73476302
-      },
-      "encryptUid": "e1117ce2af7d7fbf4fe7a77cc9515e92f6cf11f59ab803cb749d64c426342f6d",
-      "level": 11,
-      "merkelLeaf": "64ced402edefa4da",
-      "nonce": "5j01abmm722ak2wvlq75bntkz18idvfimwwhaypt66bjn0ptne81160et3ajv1z3",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 1000000.0001998,
-        "ETH": 300000,
-        "USDT": 1299991.9972
-      },
-      "level": 10,
-      "merkelLeaf": "87bd27437fbf59c2",
-      "role": 1
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 0,
-        "ETH": 0,
-        "USDT": 53051.10598709
-      },
-      "level": 9,
-      "merkelLeaf": "d61c58070ee1dc12",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 11.98852944,
-        "ETH": 157.31252,
-        "USDT": 1099754333.25209158
-      },
-      "level": 8,
-      "merkelLeaf": "81cc6c9125fa98cb",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 715.09237636,
-        "ETH": 2100.0404595,
-        "USDT": 2020155332.95708230
-      },
-      "level": 7,
-      "merkelLeaf": "4ccb436f7883fe91",
-      "role": 1
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 61400096.00294400,
-        "ETH": 433168.81989999,
-        "USDT": 1016785013.13079698
-      },
-      "level": 6,
-      "merkelLeaf": "795423500e6d597d",
-      "role": 1
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 286595751.08265201,
-        "ETH": 26727776.90857214,
-        "USDT": 2453648994.37423942
-      },
-      "level": 5,
-      "merkelLeaf": "6050ca3d4e946783",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 8508725002.69311378,
-        "ETH": 2146389444.08493589,
-        "USDT": 15787098930.60614156
-      },
-      "level": 4,
-      "merkelLeaf": "8ad038df7e82fce6",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 9944837661.61102144,
-        "ETH": 10112560970.15270098,
-        "USDT": 63861352068.33045056
-      },
-      "level": 3,
-      "merkelLeaf": "e33150a464c294ed",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 420217093.46290786,
-        "ETH": 221002355.98534612,
-        "USDT": 6649023671.61392569
-      },
-      "level": 2,
-      "merkelLeaf": "864f125992c7bae9",
-      "role": 2
-    },
-    {
-      "auditId": "Au20221129",
-      "balances": {
-        "BTC": 19222776331.93374469,
-        "ETH": 12507420973.30443462,
-        "USDT": 92889184629.59267820
-      },
-      "level": 1,
-      "merkelLeaf": "ffedeaf82363b23c",
-      "role": 3
-    }
-  ],
-  "self": {
-    "auditId": "Au20221129",
-    "balances": {
-      "BTC": 0,
-      "ETH": 5000,
-      "USDT": 5560.49
-    },
-    "encryptUid": "b3e887893212aa3faea8923b3b4c8589131895e7f468d394c4c508e31e3c85bf",
-    "level": 11,
-    "merkelLeaf": "1fa8ef498dc505f6",
-    "nonce": "wx9bzgdojl0hoz7ckgft0k1cdyly7qohglaphsmqkx0hv80hjlwf0igvnamdqbh7",
-    "role": 1
-  }
+	"path": [
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+			  "BTC": "3594.00746590",
+				"ETH": "67892.18534334",
+				"USDT": "931791920.93942592",
+				"USDC": "38184518.67614215"
+			},
+			"encryptUid": "364c81b28fb95e860ec6a7d1815e49c96c975540199215039d4c2b811e52bb31",
+			"level": 27,
+			"merkelLeaf": "e0785aef0d427120",
+			"nonce": "se8bj55ndo9m6zsnfnzkg2uvla5lrwtx73gktfw94fs751y6hje6hg4dbqnjh0qp",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0",
+				"ETH": "0",
+				"USDT": "0.00189909",
+				"USDC": "0"
+			},
+			"level": 26,
+			"merkelLeaf": "023991ebc509e4cf",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0",
+				"ETH": "0",
+				"USDT": "0",
+				"USDC": "0"
+			},
+			"level": 25,
+			"merkelLeaf": "5228e6c6ffc806f3",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0",
+				"ETH": "0",
+				"USDT": "20",
+				"USDC": "0"
+			},
+			"level": 24,
+			"merkelLeaf": "bb1a372dd3df4231",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.00000054",
+				"ETH": "0",
+				"USDT": "1484.52298053",
+				"USDC": "0"
+			},
+			"level": 23,
+			"merkelLeaf": "8105aeae72e378e2",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0",
+				"ETH": "0",
+				"USDT": "6.82339778",
+				"USDC": "0"
+			},
+			"level": 22,
+			"merkelLeaf": "84144edc59d28d75",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0",
+				"ETH": "0",
+				"USDT": "88.77544539",
+				"USDC": "0"
+			},
+			"level": 21,
+			"merkelLeaf": "cd980dc67addf8c5",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.00090860",
+				"ETH": "0.0000993",
+				"USDT": "127.56351854",
+				"USDC": "0.01302341"
+			},
+			"level": 20,
+			"merkelLeaf": "c5b4940d49b4fb4c",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.00026576",
+				"ETH": "0.02169794",
+				"USDT": "38356.87039175",
+				"USDC": "0.782564"
+			},
+			"level": 19,
+			"merkelLeaf": "6422baa409c4a950",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.00170720",
+				"ETH": "0.02757745",
+				"USDT": "13170.67661497",
+				"USDC": "2.230052"
+			},
+			"level": 18,
+			"merkelLeaf": "5858740b8080dcad",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.15654481",
+				"ETH": "0.11623495",
+				"USDT": "12026.56514667",
+				"USDC": "0.11069713"
+			},
+			"level": 17,
+			"merkelLeaf": "b37ed8addff2ace9",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.01267135",
+				"ETH": "0.03225795",
+				"USDT": "12411.40366587",
+				"USDC": "4.54533737"
+			},
+			"level": 16,
+			"merkelLeaf": "db7e41475693b434",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.77078178",
+				"ETH": "52.52660551",
+				"USDT": "223964.47646049",
+				"USDC": "-247.89345268"
+			},
+			"level": 15,
+			"merkelLeaf": "ea677cae01d2aaee",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "0.82474191",
+				"ETH": "19.97185354",
+				"USDT": "330897.22240131",
+				"USDC": "14607.38065200"
+			},
+			"level": 14,
+			"merkelLeaf": "21aa7196378e2f91",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "1.43697396",
+				"ETH": "8.09972370",
+				"USDT": "525627.31596952",
+				"USDC": "1790.47833438"
+			},
+			"level": 13,
+			"merkelLeaf": "f9127e9dd0afe802",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "2.01274612",
+				"ETH": "25.88506119",
+				"USDT": "1168872.23386021",
+				"USDC": "25476.02824949"
+			},
+			"level": 12,
+			"merkelLeaf": "e8d7925f2be621fc",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "10.17452011",
+				"ETH": "162.48163521",
+				"USDT": "4000489.12927129",
+				"USDC": "643364.88624514"
+			},
+			"level": 11,
+			"merkelLeaf": "64e4a751f8390ca4",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "38.57000531",
+				"ETH": "457.92473511",
+				"USDT": "6218196.20582748",
+				"USDC": "136573.70866139"
+			},
+			"level": 10,
+			"merkelLeaf": "48422b5ed32fc8c1",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "35.02217038",
+				"ETH": "767.47977467",
+				"USDT": "18955211.53533502",
+				"USDC": "889780.20077110"
+			},
+			"level": 9,
+			"merkelLeaf": "d0d49e797443a6b0",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "45.51051956",
+				"ETH": "335.60914146",
+				"USDT": "10010707.33625933",
+				"USDC": "108489.17289124"
+			},
+			"level": 8,
+			"merkelLeaf": "2cb300200e721208",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "172.99484242",
+				"ETH": "1994.3283951",
+				"USDT": "27890588.64492583",
+				"USDC": "797541.34442065"
+			},
+			"level": 7,
+			"merkelLeaf": "9df28140c1bd9a05",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "199.11681879",
+				"ETH": "5072.70426695",
+				"USDT": "63725778.82100556",
+				"USDC": "2703660.54462006"
+			},
+			"level": 6,
+			"merkelLeaf": "160d5ed0ea9c9846",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "576.16388295",
+				"ETH": "8890.99830156",
+				"USDT": "120384402.80232705",
+				"USDC": "10068709.39844015"
+			},
+			"level": 5,
+			"merkelLeaf": "c09b227e80626df2",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "999.22280901",
+				"ETH": "20359.13532652",
+				"USDT": "189514248.09696326",
+				"USDC": "12101919.35532838"
+			},
+			"level": 4,
+			"merkelLeaf": "6fccc2fb2c87199f",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "2005.36270871",
+				"ETH": "35431.09354676",
+				"USDT": "558610119.50844234",
+				"USDC": "20336061.84599844"
+			},
+			"level": 3,
+			"merkelLeaf": "6c05f975f368dc2f",
+			"role": 1
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "3594.00746590",
+				"ETH": "67892.18534334",
+				"USDT": "931791920.93942592",
+				"USDC": "38184518.67614215"
+			},
+			"level": 2,
+			"merkelLeaf": "06747ff0171e061c",
+			"role": 2
+		},
+		{
+			"auditId": "Au2025082204",
+			"balances": {
+				"BTC": "7681.36308517",
+				"ETH": "141470.62157821",
+				"USDT": "1933428717.47153520",
+				"USDC": "86012252.80897580"
+			},
+			"level": 1,
+			"merkelLeaf": "f4b519b688f6ea41",
+			"role": 3
+		}
+	],
+	"self": {
+		"auditId": "Au2025082204",
+		"balances": {
+			  "BTC": "2005.36270871",
+				"ETH": "35431.09354676",
+				"USDT": "558610119.50844234",
+				"USDC": "20336061.84599844"
+		},
+		"encryptUid": "b9f0892720bf0867da9223b083c17ebeac486a8eb03a522df9e6f7f4a1824b18",
+		"level": 27,
+		"merkelLeaf": "6358c8dcfdeba883",
+		"nonce": "ba37amorevqhtrg7yzk74dr5s6f4wn774kmymjtk8m8gcxqcc1y98e5wpq42iv0s",
+		"role": 1
+	}
 }

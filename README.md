@@ -1,4 +1,4 @@
-# Proof of Reserves Licensed to Bitget Limited
+92bba2eeb8715af875c4c66db32a88419ee6bc34# Proof of Reserves Licensed to Bitget Limited
 ## Background
 
 Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that Bitget’s reserves have exceed the exchange’s known liabilities to all users to confirm Bitget’s solvency.
@@ -127,7 +127,7 @@ Merkle tree path data json text:
       }
    ],
    "self": {
-      "auditId": "Au20221125",
+      "auditId": "",
       "balances": {
          "BTC": 2001249.79108457,
          "ETH": 1999998.0656526,
