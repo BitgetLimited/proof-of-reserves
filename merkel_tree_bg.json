@@ -3,13 +3,13 @@
 		{
 			"auditId": "Au2025082204",
 			"balances": {
-				"BTC": "0",
-				"ETH": "0",
-				"USDT": "0",
-				"USDC": "0"
+				"BTC": "7681.36308517",
+				"ETH": "141470.62157821",
+				"USDT": "1933428717.47153520",
+				"USDC": "86012252.80897580"
 			},
 			"encryptUid": "364c81b28fb95e860ec6a7d1815e49c96c975540199215039d4c2b811e52bb31",
-			"level": 27,
+			"level": 0,
 			"merkelLeaf": "e0785aef0d427120",
 			"nonce": "se8bj55ndo9m6zsnfnzkg2uvla5lrwtx73gktfw94fs751y6hje6hg4dbqnjh0qp",
 			"role": 2
@@ -329,14 +329,14 @@
 	],
 	"self": {
 		"auditId": "Au2025082204",
-		"balances": {
-			"BTC": "0",
-			"ETH": "0",
-			"USDT": "0",
-			"USDC": "0"
+  "balances": {
+		  "BTC": "7681.36308517",
+				"ETH": "141470.62157821",
+				"USDT": "1933428717.47153520",
+				"USDC": "86012252.80897580"
 		},
 		"encryptUid": "b9f0892720bf0867da9223b083c17ebeac486a8eb03a522df9e6f7f4a1824b18",
-		"level": 27,
+		"level": 0,
 		"merkelLeaf": "6358c8dcfdeba883",
 		"nonce": "ba37amorevqhtrg7yzk74dr5s6f4wn774kmymjtk8m8gcxqcc1y98e5wpq42iv0s",
 		"role": 1
