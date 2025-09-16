@@ -40,6 +40,7 @@ public class MerkleProof {
         System.out.printf("Generator Root BTC balance : %s ,merkel_tree_bg Root BTC balance in file: %s%n", newRoot.getBalances().get("BTC"), oldRoot.getBalances().get("BTC"));
         System.out.printf("Generator Root ETH balance : %s ,merkel_tree_bg Root ETH balance in file: %s%n", newRoot.getBalances().get("ETH"), oldRoot.getBalances().get("ETH"));
         System.out.printf("Generator Root USDT balance : %s ,merkel_tree_bg Root USDT balance in file: %s%n", newRoot.getBalances().get("USDT"), oldRoot.getBalances().get("USDT"));
+        System.out.printf("Generator Root USDC balance : %s ,merkel_tree_bg Root USDC balance in file: %s%n", newRoot.getBalances().get("USDC"), oldRoot.getBalances().get("USDC"));
         System.out.printf("Generator Root MerkelLeaf : %s ,merkel_tree_bg Root MerkelLeaf in file: %s%n", newRoot.getMerkelLeaf(), oldRoot.getMerkelLeaf());
 
         if (newRoot.getMerkelLeaf().equals(oldRoot.getMerkelLeaf()) && newRoot.validateEqualsBalances(oldRoot) && newRoot.getLevel().equals(oldRoot.getLevel())) {
