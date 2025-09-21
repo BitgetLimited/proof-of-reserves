@@ -1,5 +1,4 @@
 package com.upex;
-
 import com.alibaba.fastjson.JSONObject;
 import com.upex.model.MerkleProof;
 import com.upex.util.CollectionUtils;
