@@ -1,18 +1,20 @@
 package com.upex.util;
 
-import com.alibaba.fastjson.JSONObject;
 import com.upex.constants.MerkelTreeConstants;
 import com.upex.model.TreeNode;
 
 /**
  * MerkelTreeUtils
+ *
  * @author BitgetLimited
  * @date 2022/11/25 23:11
  */
 public class MerkelTreeUtils {
 
+
     /**
      * 生成节点hash
+     *
      * @param treeNode
      */
     public static String createMerkelNodeLeaf(TreeNode treeNode) {
@@ -21,12 +23,13 @@ public class MerkelTreeUtils {
                 .append(MerkelTreeConstants.COMMA)
                 .append(treeNode.getNonce())
                 .append(MerkelTreeConstants.COMMA)
-                .append(JSONObject.toJSONString(treeNode.getBalances()));
-        return EncryptionUtils.sha256(merkelHash.toString()).substring(0,16);
+                .append(JSONUtils.toJSONString(treeNode.getBalances()));
+        return EncryptionUtils.sha256(merkelHash.toString()).substring(0, 16);
     }
 
     /**
      * createMerkelParentLeaf
+     *
      * @param left
      * @param right
      * @param parent
@@ -38,7 +41,7 @@ public class MerkelTreeUtils {
         String hashId = left.getMerkelLeaf() +
                 right.getMerkelLeaf() +
                 MerkelTreeConstants.COMMA +
-                JSONObject.toJSONString(parent.getBalances()) +
+                JSONUtils.toJSONString(parent.getBalances()) +
                 MerkelTreeConstants.COMMA +
                 (parent.getLevel());
         return EncryptionUtils.sha256(hashId).substring(0, 16);
