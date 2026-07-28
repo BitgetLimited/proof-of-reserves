@@ -1,7 +1,7 @@
 # Proof of Reserves Licensed to Bitget Limited
 ## Background
 
-Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that[...] 
+Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that[...]
 
 ## Introduction
 ### Build from source
@@ -106,11 +106,11 @@ Combining figure one and the following json text, and based on the user's own le
 
 ## Destek / Sponsorluk
 
-Bu proje açık kaynak ve topluluk desteği ile sürdürülüyor. Eğer projenin devam etmesini desteklemek veya kurumsal entegrasyon/destek almak isterseniz bizi sponsor olarak destekleyebilir veya ücretli destek paketi satın alabilirsiniz: https://github.com/sponsors/your-username
+Bu proje açık kaynak ve topluluk desteği ile sürdürülüyor. Eğer projenin devam etmesini desteklemek veya kurumsal entegrasyon/destek almak isterseniz bizi sponsor olarak destekleyebilir veya ücretli destek paketi satın alabilirsiniz: https://github.com/sponsors/ismailpinrin0-max
 
-[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-red)](https://github.com/sponsors/your-username)
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-red)](https://github.com/sponsors/ismailpinrin0-max)
 
-- Bireysel sponsor: https://github.com/sponsors/your-username
+- Bireysel sponsor: https://github.com/sponsors/ismailpinrin0-max
 - Topluluk destek (Open Collective): https://opencollective.com/your-project
 - Hızlı bağış (PayPal): https://paypal.me/your-link
 

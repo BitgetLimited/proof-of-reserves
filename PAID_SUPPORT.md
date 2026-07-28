@@ -34,4 +34,4 @@ Proof-of-Reserves projesi için aşağıdaki hizmetleri talep ediyoruz:
 - Ek gereksinimler:
 
 Lütfen teklif ve zaman çizelgesini paylaşın.  
-İletişim: sponsor@example.com (bu adresi gerçek e-posta ile değiştirin)
+İletişim: ismailpinrin0@gmail.com

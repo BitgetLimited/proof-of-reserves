@@ -24,4 +24,4 @@ Bu dosya, projeyi hosted bir servis olarak sunmanın temel planını ve fiyatlan
 ## Satış & Pazarlama
 - Hedef müşteri: kripto borsaları, custody sağlayıcıları, fintech firmaları
 - Pilot proje başlatma: 30-60 günlük POC teklifi
-- Demo ve kurulum teklifi için iletişim: sponsor@example.com (güncelleyin)
+- Demo ve kurulum teklifi için iletişim: ismailpinrin0@gmail.com (güncelleyin)
