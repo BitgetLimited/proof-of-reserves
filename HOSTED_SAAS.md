@@ -1,27 +1,29 @@
-# Hosted "Proof-of-Reserves" SaaS - Kısa İş Planı
+# HOSTED_SAAS.md
 
-Bu dosya, projeyi hosted bir servis olarak sunmanın temel planını ve fiyatlandırma önerilerini içerir.
+Bu doküman Proof-of-Reserves için önerilen hosted SaaS servisi kısa açıklaması, özellikleri ve fiyatlandırma planlarını içerir.
 
-## Ürün Tanımı
-"Proof-of-Reserves as a Service" — kurumsal müşteriler için merkle doğrulamalarını barındıran, zamanlanmış raporlar ve API erişimi sunan bir servis.
+Servis Özeti
 
-## Fiyatlandırma Önerisi
-- Freemium: küçük hesaplar için sınırlı doğrulama (ör. aylık 5 rapor ücretsiz)
-- Starter: 99 USD / ay — temel otomatik doğrulama + 7/30 günlük saklama
-- Business: 499 USD / ay — gelişmiş raporlama, API erişimi, 30 günlük saklama
-- Enterprise: özel fiyat — SLA, özel entegrasyon ve on-premise destek
+Proof-of-Reserves SaaS, kurumların kendi altyapısını kurmadan doğrulama, raporlama ve izleme işlevlerini kullanabilmesini sağlar. Servis şu özellikleri sunar:
 
-## Teknik Gereksinimler
-- Otomasyon: zamanlanmış işler (cron), veri çekme entegrasyonları (SFTP/API)
-- Güvenlik: TLS, IAM, audit logging, veri şifreleme (at-rest ve in-transit)
-- Ölçek: containerized deployment (Kubernetes), monitoring, backup
-- Ödeme altyapısı: Stripe/PayPal/Invoice desteği
+- Periyodik Merkle kök yayınlama ve arşivleme
+- Kullanıcı doğrulama aracı (verifier) barındırma
+- Raporlama paneli ve günlük/haftalık e-posta raporları
+- Role-based erişim kontrolü ve API anahtarları
+- Yedekleme ve SLA/uptime garantileri (opsiyonel Enterprise paketleri)
 
-## GDPR & Uyumluluk
-- Müşteri verileri işleniyorsa sözleşme ve veri işleme ekleri (DPA) gereklidir.
-- Kurumsal müşteriler için SOC2 / ISO27001 gereksinimleri göz önünde bulundurulmalı.
+Fiyatlandırma (örnek)
 
-## Satış & Pazarlama
-- Hedef müşteri: kripto borsaları, custody sağlayıcıları, fintech firmaları
-- Pilot proje başlatma: 30-60 günlük POC teklifi
-- Demo ve kurulum teklifi için iletişim: ismailpinrin0@gmail.com (güncelleyin)
+- Free tier: 1 public snapshot / ay, sınırlı destek
+- Starter: $49/ay — 4 snapshot/ay, e-posta desteği
+- Business: $299/ay — 30 snapshot/ay, dashboard, haftalık raporlar
+- Enterprise: Teklif bazlı — sınırsız snapshot, SLA, 7/24 destek, özel entegrasyon
+
+Kurulum ve geçiş
+
+- Kısa pilot: 14 günlük deneme
+- Production geçiş: Entegrasyon planı, veri transferi desteği ve özel eğitim
+
+İletişim
+
+Hosted SaaS teklifi ve demo talebi için ismailpinrin0@gmail.com adresine e-posta gönderin.

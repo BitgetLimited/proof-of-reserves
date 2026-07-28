@@ -1,7 +1,7 @@
 # Proof of Reserves Licensed to Bitget Limited
 ## Background
 
-Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that[...]
+Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that[...] 
 
 ## Introduction
 ### Build from source
@@ -102,11 +102,10 @@ Combining figure one and the following json text, and based on the user's own le
    <img src="images/success.png" alt="" style="text-align:right;width:500px;"/>  
    2）If your data are wrong and the verification fails, the result is "Inconsistent with the Merkle tree root hash. The verification fails".
    <img src="images/faild.png" alt="" style="text-align:right;width:500px;"/>
-6. You can also refer to the Bitget Limited open source verification tool code and Merkle tree definition (refer to the "What is the Merkle Tree" section) and write your own program to verify the...
+6. You can also refer to the Bitget Limited open source verification tool code and Merkle tree definition (refer to the "What is the Merkle Tree" section) and write your own program to verify the[...]
 
 ## Destek / Sponsorluk
-
-Bu proje açık kaynak ve topluluk desteği ile sürdürülüyor. Eğer projenin devam etmesini desteklemek veya kurumsal entegrasyon/destek almak isterseniz bizi sponsor olarak destekleyebilir veya ücretli destek paketi satın alabilirsiniz: https://github.com/sponsors/ismailpinrin0-max
+Bu proje açık kaynak ve topluluk desteği ile sürdürülüyor. Eğer projenin devam etmesini desteklemek veya kurumsal entegrasyon/destek almak isterseniz lütfen aşağıdaki yollarla destek olun veya bizimle iletişime geçin.
 
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-red)](https://github.com/sponsors/ismailpinrin0-max)
 
@@ -114,4 +113,6 @@ Bu proje açık kaynak ve topluluk desteği ile sürdürülüyor. Eğer projenin
 - Topluluk destek (Open Collective): https://opencollective.com/your-project
 - Hızlı bağış (PayPal): https://paypal.me/your-link
 
-Ayrıca ücretli kurulum, entegrasyon ve denetim hizmetleri için PAID_SUPPORT.md dosyasına bakın.
+Ücretli kurulum, entegrasyon, denetim veya SLA destek talepleri için lütfen PAID_SUPPORT.md dosyasına bakın.
+
+İletişim: ismailpinrin0@gmail.com

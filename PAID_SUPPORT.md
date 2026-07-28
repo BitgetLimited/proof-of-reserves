@@ -1,37 +1,42 @@
-# Ücretli Destek & Hizmet Paketleri
+# Ücretli Destek (PAID_SUPPORT)
 
-Bu dosya proje için sunulan ücretli destek paketlerini, fiyatlandırmayı ve nasıl teklif alabileceğinizi açıklar.
+Bu belge, kurumlar ve proje sahipleri için sunulan ücretli destek paketlerini, teklif şablonunu ve iletişim adımlarını içerir.
 
-## Paketler
+Paketler
 
-### Basic
-- E-posta desteği (iş günü içinde 3 iş günü içerisinde yanıt)
-- Kurulum rehberi ile telefon/zoom 1 saatlik destek
-- Fiyat: 200 USD / ay
+- Bronze — Hızlı Destek
+  - İçerik: E-posta desteği, 3 iş günü yanıt garantisi, küçük hata düzeltmeleri
+  - Fiyat: $200 (tek seferlik)
 
-### Pro
-- 24 saat içinde öncelikli destek
-- Kurulum & entegrasyon desteği (en fazla 5 saat)
-- 1 aylık hata düzeltme ve küçük özelleştirme
-- Fiyat: 1000 USD / ay
+- Silver — Entegrasyon Desteği
+  - İçerik: Kurulum rehberi ile uzaktan destek, konfigürasyon, 5 iş günü SLA
+  - Fiyat: $1,000 (tek seferlik)
 
-### Enterprise
-- Özel SLA (yanıt süreleri ve çalışma saatleri)
-- On-site veya tam zamanlı entegrasyon/denetim
-- Özel geliştirme ve bakım
-- Fiyat: teklif ile (şirket gereksinimlerine göre)
+- Gold — Tam Destek & Denetim
+  - İçerik: Tam kurulum, günlük entegrasyon desteği, güvenlik denetimi, 2 haftalık teslimat
+  - Fiyat: $5,000 (tek seferlik)
 
-## Teklif Talebi (E-posta Şablonu)
+- Enterprise — Özel Çözümler
+  - İçerik: Kurumsal entegrasyon, özel SLA, 7/24 destek, eğitim, yönetilen hizmetler
+  - Fiyat: Teklif bazlı (iletisim için e-posta)
 
-Konu: [Firma Adı] — Proof-of-Reserves Kurulum / Entegrasyon Teklifi Talebi
+Teklif Şablonu (kopyala → doldurup gönderin)
 
-Mesaj:
-Merhaba,
-Proof-of-Reserves projesi için aşağıdaki hizmetleri talep ediyoruz:
-- Hizmet paketi: (Basic / Pro / Enterprise)
-- Tahmini entegrasyon zamanı:
-- İletişim bilgileri:
-- Ek gereksinimler:
+---
+Müşteri: <Şirket Adı>
+İletişim: <İsim, e-posta, telefon>
+Hedef: (örn. Proof-of-Reserves kurulumu + haftalık raporlama)
+Tercih edilen zaman çizelgesi: <tarih aralığı>
+Fiyatlandırma beklentisi: <bütçe aralığı>
+Ek notlar: <özel gereksinimler>
+---
 
-Lütfen teklif ve zaman çizelgesini paylaşın.  
-İletişim: ismailpinrin0@gmail.com
+Nasıl başvurulur
+
+1. Teklif şablonunu doldurun ve ismailpinrin0@gmail.com adresine gönderin.
+2. Biz size 48 saat içinde ilk geri dönüşü sağlayacağız ve gerekirse bir keşif toplantısı planlayacağız.
+
+Garanti ve gizlilik
+
+- Gizlilik sözleşmesi (NDA) gerektiren kurumsal talepler için NDA imzalanır.
+- Hizmet süresince proje verileri gizli tutulur.
