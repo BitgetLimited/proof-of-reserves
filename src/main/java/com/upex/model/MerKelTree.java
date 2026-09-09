@@ -4,7 +4,7 @@ import com.upex.constants.TreeNodeRoleConstants;
 import com.upex.util.MerkelTreeUtils;
 
 import java.math.BigDecimal;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -89,7 +89,7 @@ public class MerKelTree {
      */
     private static Map<String, BigDecimal> clearAssetsMap(TreeNode right) {
         Map<String, BigDecimal> assetsMap = right.getBalances();
-        Map<String, BigDecimal> result = new HashMap<>();
+        Map<String, BigDecimal> result = new LinkedHashMap<>();
         assetsMap.keySet().forEach(coinName -> result.put(coinName, BigDecimal.ZERO));
         return result;
     }

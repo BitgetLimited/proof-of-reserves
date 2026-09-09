@@ -1,6 +1,8 @@
 package com.upex;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.alibaba.fastjson.parser.Feature;
 import com.upex.model.MerkleProof;
 import com.upex.util.CollectionUtils;
 import com.upex.util.StringUtils;
@@ -30,8 +32,8 @@ public class BgMerkleValidator {
             return;
         }
 
-        // 获得默克尔树证明对象
-        MerkleProof merkleProof = JSONObject.parseObject(merkleJsonFile, MerkleProof.class);
+        // 获得默克尔树证明对象（启用 OrderedField 保持 JSON 键顺序）
+        MerkleProof merkleProof = JSON.parseObject(merkleJsonFile, MerkleProof.class, Feature.OrderedField);
 
         // 默克尔树参数验证
         if(validate(merkleProof)){

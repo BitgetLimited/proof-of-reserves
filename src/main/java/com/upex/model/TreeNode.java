@@ -5,7 +5,7 @@ import com.upex.util.StringUtils;
 import org.apache.commons.collections.MapUtils;
 
 import java.math.BigDecimal;
-import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 /**
  * TreeNode
@@ -16,7 +16,7 @@ public class TreeNode {
 
     private String auditId;
 
-    private Map<String, BigDecimal> balances = new HashMap<>();
+    private Map<String, BigDecimal> balances = new LinkedHashMap<>();
 
     private String nonce;
 
@@ -44,7 +44,8 @@ public class TreeNode {
     }
 
     public void setBalances(Map<String, BigDecimal> balances) {
-        this.balances = balances;
+        // Wrap in LinkedHashMap to preserve insertion order (JSON key order from file)
+        this.balances = new LinkedHashMap<>(balances);
     }
 
     public String getNonce() {

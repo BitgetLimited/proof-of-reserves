@@ -1,6 +1,9 @@
 package com.upex.model;
 
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
+
 /**
  * MerkleProof
  * @author BitgetLimited
@@ -37,11 +40,15 @@ public class MerkleProof {
         TreeNode newRoot = new MerKelTree().buildMerkelTreeRoot(path, self);
         TreeNode oldRoot = path.get(path.size() - 1);
 
-        System.out.printf("Generator Root BTC balance : %s ,merkel_tree_bg Root BTC balance in file: %s%n", newRoot.getBalances().get("BTC"), oldRoot.getBalances().get("BTC"));
-        System.out.printf("Generator Root ETH balance : %s ,merkel_tree_bg Root ETH balance in file: %s%n", newRoot.getBalances().get("ETH"), oldRoot.getBalances().get("ETH"));
-        System.out.printf("Generator Root USDT balance : %s ,merkel_tree_bg Root USDT balance in file: %s%n", newRoot.getBalances().get("USDT"), oldRoot.getBalances().get("USDT"));
-        System.out.printf("Generator Root MerkelLeaf : %s ,merkel_tree_bg Root MerkelLeaf in file: %s%n", newRoot.getMerkelLeaf(), oldRoot.getMerkelLeaf());
 
+        // 动态遍历所有币种
+        Set<String> allCoins = new LinkedHashSet<>();
+        allCoins.addAll(newRoot.getBalances().keySet());
+        allCoins.addAll(oldRoot.getBalances().keySet());
+        for (String coin : allCoins) {
+            System.out.printf("Root %s balance — generated: %s, file: %s%n",
+                    coin, newRoot.getBalances().get(coin), oldRoot.getBalances().get(coin));
+        }
         if (newRoot.getMerkelLeaf().equals(oldRoot.getMerkelLeaf()) && newRoot.validateEqualsBalances(oldRoot) && newRoot.getLevel().equals(oldRoot.getLevel())) {
             return true;
         }
