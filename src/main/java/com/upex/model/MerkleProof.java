@@ -46,8 +46,7 @@ public class MerkleProof {
         allCoins.addAll(newRoot.getBalances().keySet());
         allCoins.addAll(oldRoot.getBalances().keySet());
         for (String coin : allCoins) {
-            System.out.printf("Root %s balance — generated: %s, file: %s%n",
-                    coin, newRoot.getBalances().get(coin), oldRoot.getBalances().get(coin));
+            System.out.printf("Generator Root %s balance : %s ,merkel_tree_bg Root %s balance in file: %s%n",coin, newRoot.getBalances().get(coin),coin, oldRoot.getBalances().get(coin));
         }
         if (newRoot.getMerkelLeaf().equals(oldRoot.getMerkelLeaf()) && newRoot.validateEqualsBalances(oldRoot) && newRoot.getLevel().equals(oldRoot.getLevel())) {
             return true;
