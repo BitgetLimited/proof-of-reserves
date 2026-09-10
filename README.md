@@ -1,6 +1,5 @@
 # Proof of Reserves Licensed to Bitget Limited
-## Background
-
+## Backgr
 Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that Bitget’s reserves have exceed the exchange’s known liabilities to all users to confirm Bitget’s solvency.
 
 ## Introduction
