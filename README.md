@@ -1,7 +1,7 @@
 # Proof of Reserves Licensed to Bitget Limited
 ## Background
 
-Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that Bitget’s reserves have exceed the exchange’s known liabilities to all users to confirm Bitget’s solvency.
+Bitget launches Proof of Reserve (PoR) to improve the security and transparency of user assets. These tools will allow you to independently audit Bitget’s Proof of Reserves as well as verify that[...] 
 
 ## Introduction
 ### Build from source
@@ -24,7 +24,7 @@ The minimum prerequisite to build this project requires Java version >= 11, Mave
 
 # Technical Description
 ## What is the Merkle Tree?
-Merkle Tree is a data structure, also known as a Hash Tree. Merkle tree stores data in the leaf nodes of the tree structure, and by hashing the data step by step up to the top root node, any changes in the data of the leaf nodes will be passed to the higher level nodes and eventually displayed as changes in the root of the tree.
+Merkle Tree is a data structure, also known as a Hash Tree. Merkle tree stores data in the leaf nodes of the tree structure, and by hashing the data step by step up to the top root node, any chang[...]
 
 ### 1. The roles of Merkle tree
 - Zero-knowledge proof
@@ -51,16 +51,16 @@ Information stored in every tree node includes:
    ```  
   ##### Parent node
   ```
-  Parent node's hash = sha256Function(hash1+hash2,{"BTC":(hash1(BTC amount)+hash2(BTC amount)),"ETH":(hash1(ETH amount)+hash2(ETH amount)),"USDT":(hash1(USDT amount)+hash2(USDT amount))},parent node level).substring(0,16)
+  Parent node's hash = sha256Function(hash1+hash2,{"BTC":(hash1(BTC amount)+hash2(BTC amount)),"ETH":(hash1(ETH amount)+hash2(ETH amount)),"USDT":(hash1(USDT amount)+hash2(USDT amount))},parent no[...]
    ```
 - h1: hash of the left child node of the current node,
 - h2: hash of the right child node of the current node,
 - level: where the parent node lies in
 
-**Definition of tree node level**：A complete Merkle Tree (full binary tree) requires 2^n leaf node data, leaf node level = n + 1, parent node level = child node level - 1, root node level = 1, leaf node level is the maximum
+**Definition of tree node level**：A complete Merkle Tree (full binary tree) requires 2^n leaf node data, leaf node level = n + 1, parent node level = child node level - 1, root node level = 1, l[...]
 
 ##### Padding node rules
-A complete Merkle Tree (full binary tree) requires 2^n leaf node data, but the actual number of data may not satisfy and may be odd. In such a case, if a node k has no sibling node, then auto padding generates a sibling node k', and`hash(k')=hash(k)`, and the number of coins of node k' is set to zero.
+A complete Merkle Tree (full binary tree) requires 2^n leaf node data, but the actual number of data may not satisfy and may be odd. In such a case, if a node k has no sibling node, then auto padd[...]
 
 
 ###### For example：
@@ -75,72 +75,17 @@ Figure one
 <img src="images/flowChart.jpg" alt="" style="text-align:right;width:500px;"/>
 
 ```
-Parent node's hash = sha256Function(hash1+hash2,{"BTC":(hash1(BTC amount)+hash2(BTC amount)),"ETH":(hash1(ETH amount)+hash2(ETH amount)),"USDT":(hash1(USDT amount)+hash2(USDT amount))},parent node level).substring(0,16)
-```  
+Parent node's hash = sha256Function(hash1+hash2,{"BTC":(hash1(BTC amount)+hash2(BTC amount)),"ETH":(hash1(ETH amount)+hash2(ETH amount)),"USDT":(hash1(USDT amount)+hash2(USDT amount))},parent node[...]
+```
 Thus：
 `hash6 = SHA256(hash3 + hash3, {BTC: (2+0), ETH:(1+0), USDT:(12+0)}, level)`
 
 ### Verification Principle
 #### 1、Verification principle:
-According to the definition of Bitget Limited Merkle tree, the hash value of the parent node is calculated from the user's own leaf node up to the root node, and the hash value of the root node is compared with the hash value of the Merkle tree in "Verification Step - Step 1", if the two are equal, the verification passes, if not, the verification fails.
+According to the definition of Bitget Limited Merkle tree, the hash value of the parent node is calculated from the user's own leaf node up to the root node, and the hash value of the root node is[...]
 
 #### 2、Example：
-Combining figure one and the following json text, and based on the user's own leaf node h3 and the information provided by the adjacent node h4, we can calculate out the hash of the parent node h6, and then with the information provided by the adjacent node h5, we can calculate out the hash of the parent node h7, and then compare the hash value with the root node h7 provided in the Merkle tree path data to see if the hash values are equal to complete the validation.
-Merkle tree path data json text:
-```json
-{
-   "path": [
-      {
-         "auditId": "Au20221125",
-         "balances": {
-            "BTC": 4.6115136,
-            "ETH": 0,
-            "USDT": 4372722.80025793
-         },
-         "encryptUid": "58b8f244a465335eb0c67e0d5c13a66b52c76abc1e41a6373763da35f5ce7ce1",
-         "level": 3,
-         "merkelLeaf": "8cf0243a2c76fe0b",
-         "nonce": "gblzjurybs7fiptqdaez6t3pegazguye77fhsr6q4tbqkndubnjf1962csg54em4",
-         "role": 2
-      },
-      {
-         "auditId": "Au20221125",
-         "balances": {
-            "BTC": 0.000098,
-            "ETH": 0,
-            "USDT": 9000.30237189
-         },
-         "level": 2,
-         "merkelLeaf": "8306844dff98ba79",
-         "role": 2
-      },
-      {
-         "auditId": "Au20221125",
-         "balances": {
-            "BTC": 2001254.40269617,
-            "ETH": 1999998.0656526,
-            "USDT": 993781612.22955519
-         },
-         "level": 1,
-         "merkelLeaf": "94d0d60f7cdce5fe",
-         "role": 3
-      }
-   ],
-   "self": {
-      "auditId": "Au20221125",
-      "balances": {
-         "BTC": 2001249.79108457,
-         "ETH": 1999998.0656526,
-         "USDT": 989399889.12692537
-      },
-      "encryptUid": "8c3358cd4d2572cf01de53f41717e72a91b4c6da53ce1232113c91e5cf192dd4",
-      "level": 3,
-      "merkelLeaf": "cb575fb1eb6462f9",
-      "nonce": "fi9honco6fww8afc4t2se8aml3i46pzfwjgepy3n2bbvuouns4tfiasz60klcm1p",
-      "role": 1
-   }
-}
-```
+Combining figure one and the following json text, and based on the user's own leaf node h3 and the information provided by the adjacent node h4, we can calculate out the hash of the parent node h6[...]
 
 #### Verification Steps
 1. Take the executable verifier that you need to download on the Bitget platform for your operating system and architecture.
@@ -157,4 +102,17 @@ Merkle tree path data json text:
    <img src="images/success.png" alt="" style="text-align:right;width:500px;"/>  
    2）If your data are wrong and the verification fails, the result is "Inconsistent with the Merkle tree root hash. The verification fails".
    <img src="images/faild.png" alt="" style="text-align:right;width:500px;"/>
-6. You can also refer to the Bitget Limited open source verification tool code and Merkle tree definition (refer to the "What is the Merkle Tree" section) and write your own program to verify the path data obtained in step 2, or check to make sure your assets are included in the Merkel tree generated by this audit.
+6. You can also refer to the Bitget Limited open source verification tool code and Merkle tree definition (refer to the "What is the Merkle Tree" section) and write your own program to verify the[...]
+
+## Destek / Sponsorluk
+Bu proje açık kaynak ve topluluk desteği ile sürdürülüyor. Eğer projenin devam etmesini desteklemek veya kurumsal entegrasyon/destek almak isterseniz lütfen aşağıdaki yollarla destek olun veya bizimle iletişime geçin.
+
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-red)](https://github.com/sponsors/ismailpinrin0-max)
+
+- Bireysel sponsor: https://github.com/sponsors/ismailpinrin0-max
+- Topluluk destek (Open Collective): https://opencollective.com/your-project
+- Hızlı bağış (PayPal): https://paypal.me/your-link
+
+Ücretli kurulum, entegrasyon, denetim veya SLA destek talepleri için lütfen PAID_SUPPORT.md dosyasına bakın.
+
+İletişim: ismailpinrin0@gmail.com
